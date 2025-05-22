@@ -1,6 +1,6 @@
 /* Global Styles */
 :root {
-  --primary-color: #4a6de5;
+  --primary-color: #1C92D4;
   --secondary-color: #f8f9fa;
   --accent-color: #ff6b6b;
   --text-color: #333;
@@ -102,13 +102,20 @@ header .container {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px;
+  padding: 10px;
 }
 
-.logo h1 {
-  font-size: 24px;
-  font-weight: 700;
-  color: var(--primary-color);
+/* Logo Styles */
+
+.logo-image {
+  height: 40px;
+  margin-right: 10px;
+}
+
+@media (max-width: 768px) {
+  .logo-image {
+    height: 32px;
+  }
 }
 
 .nav-links {
